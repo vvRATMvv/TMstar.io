@@ -1,20 +1,26 @@
----
+<!DOCTYPE html>
+<html>
+//---
 layout: default
 ---
 <head>
 
-<title>
-personal portrfolio
-</title>
+<title>TM*** portfolio</title>
 
+<meta name="description" content="TM*****">
+<meta name="keywords" content="accessories,cat,jevellery,card,art,etsy">
+<meta name="author" content="michirineko">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h1> T***M*** no Porutoforio to nekotachi de Gozaru</h1>
 </head>
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Site map</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
+  <ul class="sitemap">
+    HOME
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -28,3 +34,4 @@ personal portrfolio
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+</html>
